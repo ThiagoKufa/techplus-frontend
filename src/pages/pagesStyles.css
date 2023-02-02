@@ -5,7 +5,7 @@
 }
 .page-container__content {
   max-width: 500px;
-  min-width: 350px;
+  min-width: 300px;
   margin: auto;
   padding: 2rem;
 }
@@ -17,4 +17,16 @@
 .page-container__content__text {
   color: var(--main-dark-text-color);
   font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+  .page-container__content {
+    margin: 0;
+  }
+  .page-container__content__title {
+    font-size: 1.3rem;
+  }
+  .page-container__content__text {
+    color: var(--main-dark-text-color);
+    font-size: 1rem;
+  }
 }

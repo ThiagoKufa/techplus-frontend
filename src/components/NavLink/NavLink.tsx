@@ -14,7 +14,7 @@ export const NavLink = ({ name, url, Icon }: INavLinkProps) => {
     <Link to={url}>
       <li className="nav-content__item">
         <Icon className="nav-content__item__icon" />
-        {name}
+        <h2>{name}</h2>
       </li>
     </Link>
   );

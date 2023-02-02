@@ -24,7 +24,7 @@ p {
   display: flex;
   flex: 1;
   max-width: 1024px;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
 

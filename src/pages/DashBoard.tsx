@@ -1,25 +1,12 @@
+import "./pagesStyles.css";
+
 export const DashBoard = () => {
   return (
     <>
-      <main
-        style={{
-          background: "#fff",
-          display: "flex",
-          flex: 1,
-        }}
-      >
-        <div style={{ width: "500px", margin: "auto" }} className="content">
-          <h1
-            style={{
-              color: "#2cc0ff",
-              fontSize: "2.3rem",
-              marginBottom: "2rem",
-            }}
-            className="content__title"
-          >
-            dashboard
-          </h1>
-          <p style={{ color: "#5c6d74", fontSize: "18px" }}>
+      <main className="page-container">
+        <div className="page-container__content">
+          <h1 className="page-container__content__title">dashboard</h1>
+          <p className="page-container__content__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
             ducimus harum accusantium aliquam facere quos. Officiis voluptates
             officia quibusdam molestias! A obcaecati voluptatem deserunt dicta
