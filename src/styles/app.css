@@ -1,0 +1,34 @@
+:root {
+  --main-bg-color: #172f39;
+  --main-text-color: #fafafa;
+  --main-dark-text-color: #5c6d74;
+  --highlight-color: #2cc0ff;
+  --hr-color: #5c6d74a4;
+  --footer-color: #5c6d74;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  word-spacing: 0.5rem;
+}
+
+.app {
+  display: flex;
+  flex: 1;
+  max-width: 1024px;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

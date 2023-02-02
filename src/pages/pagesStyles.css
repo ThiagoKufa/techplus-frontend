@@ -1,0 +1,20 @@
+.page-container {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+}
+.page-container__content {
+  max-width: 500px;
+  min-width: 350px;
+  margin: auto;
+  padding: 2rem;
+}
+.page-container__content__title {
+  color: var(--highlight-color);
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+.page-container__content__text {
+  color: var(--main-dark-text-color);
+  font-size: 18px;
+}
