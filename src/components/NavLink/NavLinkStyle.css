@@ -1,0 +1,26 @@
+.nav-content__item {
+  display: flex;
+
+  font-size: 1.5rem;
+  background-color: var(--main-bg-color);
+  padding: 1.4rem 0.3rem;
+  border-bottom: 1px solid var(--hr-color);
+  cursor: pointer;
+}
+.nav-content__item__icon {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+.nav-content__item__icon > path:last-child {
+  fill: none;
+  stroke: #fafafa;
+  stroke-width: 1;
+}
+
+.nav-content__item:first-child {
+  border-top: 1px solid var(--hr-color);
+}
+
+.nav-content__item:hover {
+  filter: brightness(0.85);
+}

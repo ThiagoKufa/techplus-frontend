@@ -1,6 +1,6 @@
 import { MdHomeFilled, MdDashboard, MdPerson } from "react-icons/md";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "../NavLink/NavLink";
 import "./SideBarStyles.css";
 
 export const SideBar = () => {
@@ -9,24 +9,9 @@ export const SideBar = () => {
       <h1 className="sidebar-title">techplus</h1>
       <nav className="nav-container">
         <ul className="nav-content">
-          <Link to="/">
-            <li className="nav-content__item">
-              <MdHomeFilled className="nav-content__item__icon" />
-              home
-            </li>
-          </Link>
-          <Link to="/dashboard">
-            <li className="nav-content__item">
-              <MdDashboard className="nav-content__item__icon" />
-              dashboard
-            </li>
-          </Link>
-          <Link to="/user">
-            <li className="nav-content__item">
-              <MdPerson className="nav-content__item__icon" />
-              user
-            </li>
-          </Link>
+          <NavLink Icon={MdHomeFilled} name="home" url="/" />
+          <NavLink Icon={MdDashboard} name="dashboard" url="/dashboard" />
+          <NavLink Icon={MdPerson} name="user" url="/user" />
         </ul>
       </nav>
       <div className="sidebar-footer">v4.0</div>
